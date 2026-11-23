@@ -98,11 +98,11 @@ const PORTFOLIO = {
       problem: "Durante minhas atividades profissionais, a empresa ficou temporariamente sem um sistema responsável pela geração de faturas, o que afetava a rotina de trabalho.",
       solution: "Desenvolvi um site que realiza essa função e ajuda a suprir a demanda, nascido de uma necessidade real do ambiente profissional.",
       description: "",
+      tech: ["HTML", "CSS", "JavaScript"],
     }
 
   ],
 
-  // ---- Interesses ----
   hobbies: ["Tecnologia e inovação", "Aprendizado de programação", "Análise de dados", "Desenvolvimento de projetos pessoais", "Aprendizado contínuo"],
 
   contact: {
