@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Caio Cavalcanti | Estudante de Sistemas de Informação | Dados e Tecnologia</title>
+  <meta name="description" content="Portfólio de estudante de Sistemas de Informação em Brasília - DF, com interesse em análise de dados, banco de dados e desenvolvimento de sistemas.">
+  <meta name="theme-color" content="#0C0C0C">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Caio Cavalcanti | Portfólio">
+  <meta property="og:description" content="Sistemas de Informação, dados e desenvolvimento de soluções para processos reais.">
+  <meta property="og:locale" content="pt_BR">
+  <!-- Depois de publicar, adicione: <meta property="og:url" content="URL do site"> e <meta property="og:image" content="URL da imagem"> -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/icons/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" id="brand-name">Caio Cavalcanti</a>
+      <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menu">
+        <span class="menu-bar"></span><span class="menu-bar"></span><span class="menu-bar"></span>
+      </button>
+      <nav id="main-nav" class="main-nav" aria-label="Principal">
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#experiencia">Experiência</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#interesses">Interesses</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section id="inicio" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="hero-kicker" id="hero-greeting"></p>
+          <h1 id="hero-name"></h1>
+          <p class="hero-role" id="hero-role"></p>
+          <p class="hero-lead" id="hero-lead"></p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projetos">Ver projetos</a>
+            <a class="btn btn-ghost" href="#contato">Entrar em contato</a>
+          </div>
+        </div>
+        <figure class="hero-photo" id="hero-photo"></figure>
+      </div>
+    </section>
+
+    <section id="sobre" class="section">
+      <div class="container two-col">
+        <h2>Sobre mim</h2>
+        <div>
+          <div class="prose" id="about-text"></div>
+          <h3 class="subhead">Formação</h3>
+          <article class="card edu" id="education"></article>
+          <p class="focus-label">Áreas que quero aprofundar</p>
+          <ul class="chips" id="focus-areas"></ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="experiencia" class="section section-alt">
+      <div class="container">
+        <h2>Experiência profissional</h2>
+        <ol class="timeline" id="experience-list"></ol>
+      </div>
+    </section>
+
+    <section id="habilidades" class="section">
+      <div class="container">
+        <h2>Habilidades e conhecimentos</h2>
+        <div class="skills-grid" id="skills-grid"></div>
+      </div>
+    </section>
+
+    <section id="projetos" class="section section-alt">
+      <div class="container">
+        <h2>Projetos</h2>
+        <div class="projects" id="projects-list"></div>
+        <p class="projects-note">Novos projetos serão adicionados aqui.</p>
+      </div>
+    </section>
+
+    <section id="interesses" class="section">
+      <div class="container two-col">
+        <h2>Interesses</h2>
+        <ul class="chips chips-lg" id="hobbies-list"></ul>
+      </div>
+    </section>
+
+    <section id="contato" class="section contact">
+      <div class="container">
+        <h2>Vamos conversar</h2>
+        <p class="contact-lead" id="contact-lead"></p>
+        <ul class="contact-list" id="contact-list"></ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container"><p id="footer-text"></p></div>
+  </footer>
+
+  <button class="to-top" id="to-top" aria-label="Voltar ao topo" hidden>
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+  </button>
+
+  <script src="js/data.js"></script>
+  <script src="js/projects.js"></script>
+  <script src="js/navigation.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
