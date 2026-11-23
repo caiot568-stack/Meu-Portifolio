@@ -2,7 +2,7 @@
 
 Portfólio pessoal de estudante de Sistemas de Informação, com foco em dados, bancos de dados e desenvolvimento de sistemas. Feito com HTML5, CSS3 e JavaScript puro, sem frameworks e sem dependências externas.
 
-**Demonstração:** adicione aqui o link do site publicado (exemplo: `https://seu-usuario.github.io/nome-do-repositorio/`)
+**Demonstração:** adicione aqui o link do site publicado (exemplo: `(https://caiot568-stack.github.io/Meu-Portifolio/#projetos)`)
 
 ## Sobre o projeto
 
