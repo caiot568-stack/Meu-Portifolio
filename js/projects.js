@@ -59,7 +59,6 @@ function createProjectCard(project) {
   const demo = createLink(project.demo, "Ver demonstração", "btn btn-primary btn-sm", "Demonstração de " + project.name);
   if (gh) links.appendChild(gh);
   if (demo) links.appendChild(demo);
-  if (!gh && !demo) links.appendChild(createElement("span", "pending", "Links a serem adicionados"));
   body.appendChild(links);
 
   card.appendChild(body);
